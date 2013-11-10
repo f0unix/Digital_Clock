@@ -46,26 +46,28 @@ function create(){
 	gen+=gen_bit("hours","1");
 	gen+=gen_separator();
 	gen+=gen_bit("hours","2");
+	gen+="</div>";
+
 	gen+=gen_separator();
 	gen+=gen_separatorPointer();
 	gen+=gen_separator();
-	gen+="</div>";
+	
 	gen+="<div id='minutes'>"
 	gen+=gen_bit("mins","1");
 	gen+=gen_separator();
 	gen+=gen_bit("mins","2");
+	gen+="</div>";
+
 	gen+=gen_separator();
 	gen+=gen_separatorPointer();
 	gen+=gen_separator();
-	gen+="</div>";
+	
 	gen+="<div id='seconds'>"
 	gen+=gen_bit("secs","1");
 	gen+=gen_separator();
 	gen+=gen_bit("secs","2");
-	gen+=gen_separator();
-	gen+=gen_separatorPointer();
-	gen+=gen_separator();
 	gen+="</div>";
+	
 	digits.innerHTML=gen;
 
 
