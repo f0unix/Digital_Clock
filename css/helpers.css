@@ -1,0 +1,90 @@
+.no_selection::selection{background-color: transparent !important;}   /* Safari */
+.no_selection::-moz-selection{background-color: transparent !important;} /* Firefox */
+.hidden{display: none; visibility: inherit !important}
+
+.pointer{cursor:pointer;}
+.bold{font-weight: bold;}
+.underline{text-decoration: underline;}
+.normal{font-weight: normal;}
+.hover{cursor: pointer;}
+.italic{font-style: italic;}
+.center{text-align: center;}
+.center-image{margin:0 auto 0 auto;}
+.no_padding{padding:0 !important;}
+.no_margin{margin:0 !important;}
+.no_margin_top{margin-top:0 !important;}
+ 
+.font9{font-size:9px;}
+.font10{font-size:10px;}
+.font11{font-size:11px;}
+.font12{font-size:12px;}
+.font13{font-size:13px;}
+.font14{font-size:14px;}
+.font15{font-size:15px;}
+.font16{font-size:16px;}
+.font17{font-size:17px;}
+.font18{font-size:18px;}
+.font19{font-size:19px;}
+.font20{font-size:20px;}
+.font21{font-size:21px;}
+.font22{font-size:22px;}
+.font23{font-size:23px;}
+.font24{font-size:24px;}
+.font25{font-size:25px;}
+.font26{font-size:26px;}
+.font27{font-size:27px;}
+.font28{font-size:28px;}
+.font29{font-size:29px;}
+.font30{font-size:30px;}
+ 
+.line10{line-height:10px;}
+.line11{line-height:11px;}
+.line12{line-height:12px;}
+.line13{line-height:13px;}
+.line14{line-height:14px;}
+.line15{line-height:15px;}
+.line16{line-height:16px;}
+.line17{line-height:17px;}
+.line18{line-height:18px;}
+.line19{line-height:19px;}
+.line20{line-height:20px;}
+.line21{line-height:21px;}
+.line22{line-height:22px;}
+.line23{line-height:23px;}
+.line24{line-height:24px;}
+.line25{line-height:25px;}
+.line26{line-height:26px;}
+.line27{line-height:27px;}
+.line28{line-height:28px;}
+.line29{line-height:29px;}
+.line30{line-height:30px;}
+ 
+
+.debug{box-sizing: border-box; border:1px solid black;}
+.debug2{box-sizing: border-box; border:1px solid red;}
+.debug3{box-sizing: border-box; border:1px solid green;}
+.debug4{box-sizing: border-box; border:1px solid white;}
+
+.mt5{margin-top:5px;}
+.mb5{margin-bottom:5px;}
+.mt10{margin-top:10px;}
+.mb10{margin-bottom:10px;}
+.mt15{margin-top:15px;}
+.mb15{margin-bottom:15px;}
+
+/*RTL Helpers*/
+.ml5{margin-left: 5px;}
+.mr5{margin-right: 5px;}
+.ml10{margin-left: 10px;}
+.mr10{margin-right: 10px;}
+.pl5{padding-left: 5px;}
+.pr5{padding-right: 5px;}
+.pl10{padding-left: 10px;}
+.pr10{padding-right: 10px;}
+
+
+
+
+.pull-left{float:left;}
+.pull-right{float:right;}
+.white{color: white;}
