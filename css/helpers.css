@@ -1,3 +1,7 @@
+/* 
+originally posted on http://github.com/jadjoubran/helpers.css 
+*/
+
 .no_selection::selection{background-color: transparent !important;}   /* Safari */
 .no_selection::-moz-selection{background-color: transparent !important;} /* Firefox */
 .hidden{display: none; visibility: inherit !important}
