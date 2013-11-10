@@ -1,5 +1,6 @@
 body{background-color: white;}
 div{display:inline-block;}
+div.orange{background-color:orange !important ;}
 div.box{width:12px;
 	height:12px;
 	background-color:black;

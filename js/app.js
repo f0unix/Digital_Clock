@@ -10,12 +10,25 @@ function gen_separator(){
 	gen+="</ul></div>";
 	return gen;
 }
+function gen_separatorPointer(){
+	
+	gen="<div id='seperator_pointer'><ul>";
+	gen+="<li><div class='box'></div></li>";
+	gen+="<li><div class='box'></div></li>";
+	gen+="<li><div class='orange box '></div></li>";
+	gen+="<li><div class='box'></div></li>";
+	gen+="<li><div class='orange box '></div></li>";
+	gen+="<li><div class='box'></div></li>";
+	gen+="<li><div class='box'></div></li>";
+	gen+="</ul></div>";
+	return gen;
+}
 function gen_bit(type,id){
 	var gen = "";
 	var count=1;
-	gen+="<div id='"+type+"_bit"+id+"'>";
+	gen+="<div id='"+type+"_bit"+id+"'><ul>";
 	for(i=0;i<7;i++){
-		gen+="<ul><li>";
+		gen+="<li>";
 		for(var j=0;j<5;j++){
 			gen+="<div class='"+type+""+count+" box'></div>";
 			count++;
@@ -34,9 +47,11 @@ function create(){
 	gen+=gen_separator();
 	gen+=gen_bit("hours","2");
 	gen+=gen_separator();
+	gen+=gen_separatorPointer();
+	gen+=gen_separator();
 	gen+="</div>";
 	gen+="<div id='minutes'>"
-	
+
 	gen+="</div>";
 	gen+="<div id='seconds'>"
 	
