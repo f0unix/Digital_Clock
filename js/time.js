@@ -17,33 +17,14 @@ $(document).ready(function() {
     var outMin = now.getMinutes();
     var outSec = now.getSeconds();
     outHour+='';
-    if(outHour.length<2){
-      var time;
-      switch(outHour){
-        case '0':time=view._0;
-        break;
-        case '1':time=view._1;
-        break;
-        case '2':time=view._2;
-        break;
-        case '3':time=view._3;
-        break;
-        case '4':time=view._4;
-        break;
-        case '5':time=view._5;
-        break;
-        case '6':time=view._6;
-        break;
-        case '7':time=view._7;
-        break;
-        case '8':time=view._8;
-        break;
-        case '9':time=view._9;
-        break;
-        default:console.log('Couldn\'t detect hours');break;
-      }
+    if(outSeconds.length<2){
+      time = getMatrix(outHour);
       console.log(time);
     }
+    else {var bit1 = outSeconds.substring(0,1);
+          var bit2 = outSeconds.substring(1,2);
+    }
+
     //$("#secs_bit1 ul li div.secs "+i+" box")
     //$("#secs_bit2 ul li div.secs "+i+" box")
     //console.log(outHour+":"+outMin+":"+outSec);

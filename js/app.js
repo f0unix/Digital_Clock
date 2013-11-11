@@ -70,3 +70,34 @@ function create(){
 	
 	digits.innerHTML=gen;
 }
+function getMatrix(data){
+	data+='';
+
+	var time;
+	switch(data){
+		case '0':time=view._0;
+		break;
+		case '1':time=view._1;
+		break;
+		case '2':time=view._2;
+		break;
+		case '3':time=view._3;
+		break;
+		case '4':time=view._4;
+		break;
+		case '5':time=view._5;
+		break;
+		case '6':time=view._6;
+		break;
+		case '7':time=view._7;
+		break;
+		case '8':time=view._8;
+		break;
+		case '9':time=view._9;
+		break;
+		default:return 'Couldn\'t detect hours';break;
+	}
+	return time;
+
+
+}
