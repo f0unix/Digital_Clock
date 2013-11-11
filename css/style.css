@@ -1,15 +1,18 @@
 body{background-color: white;}
+
 div{display:inline-block;}
-div.orange{background-color:orange !important ;}
+
+.orange{background-color:orange !important ;}
+
 div.box{width:12px;
 	height:12px;
 	background-color:black;
 	margin-left:2.5px;
 	margin-top:2.5px;
- 	-webkit-border-radius: 5em;
- 	 -moz-border-radius: 5em;
+	-webkit-border-radius: 5em;
+	-moz-border-radius: 5em;
 
-  }
+}
 
 li div{display:inline-block;}	
 ul{text-align: center;display:inline-block;}
