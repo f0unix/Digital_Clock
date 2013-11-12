@@ -98,6 +98,4 @@ function getMatrix(data){
 		default:return 'Couldn\'t detect hours';break;
 	}
 	return time;
-
-
 }
