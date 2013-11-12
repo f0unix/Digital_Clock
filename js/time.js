@@ -23,6 +23,7 @@ $(document).ready(function() {
     }
     else {var bit1 = outSec.substring(0,1);
       var bit2 = outSec.substring(1,2);
+      // returns an array 
       time1 = getMatrix(bit1);
       time2 = getMatrix(bit2);
       console.log(time1);
