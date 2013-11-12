@@ -29,7 +29,7 @@ $(document).ready(function() {
       console.log(time1);
       console.log(time2);
     }
-
+    
     //$("#secs_bit1 ul li div.secs "+i+" box")
     //$("#secs_bit2 ul li div.secs "+i+" box")
     //console.log(outHour+":"+outMin+":"+outSec);
