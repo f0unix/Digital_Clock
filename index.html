@@ -1,15 +1,19 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<link href="css/helpers.css" rel="stylesheet" media="screen">
-	<link href="css/reset.css" rel="stylesheet" media="screen">
-	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/helpers.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" media = '(max-width: 625px)'/>
+	<link href="css/style.css" rel="stylesheet" media = '(min-width: 626px)'/>
 	<script src="js/jquery-2.0.3.min.js"></script>
-	<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
 </head>
 <body onload="create()">
-	<div id='digits'>
-	</div>
+	<center class='clock'>
+		<div class = 'clock-surrounding'>
+			<div id='digits' class='mt20'>
+			</div>
+		</div>
+	</center>
 	<script src='js/app.js'></script>
 	<script src='js/time.js'></script> 
 </body>

@@ -102,33 +102,32 @@ function getMatrix(data){
 function Display(data_name,timing){
 	timing+='';
 	if(timing.length<2){
-		var time = getMatrix(timing);
+      var time = getMatrix(timing);
 
-		$("#"+data_name+"_bit1 ul li div."+data_name).removeClass('orange');
-		$("#secs_bit2 ul li div."+data_name).removeClass('orange');
-		for(i=0;i<view._0.length;i++){
-			$("#"+data_name+"_bit1 ul li div."+data_name+"."+view._0[i]+".box").addClass('orange');
-		}
-		for(i=0;i<time.length;i++){
-			$("#"+data_name+"bit2 ul li div."+data_name+"."+time[i]+".box").addClass('orange');
-		}
+      $("#"+data_name+"_bit1 ul li div."+data_name).removeClass('orange');
+      $("#"+data_name+"_bit2 ul li div."+data_name).removeClass('orange');
+      for(i=0;i<view._0.length;i++){
+        $("#"+data_name+"_bit1 ul li div."+data_name+"."+view._0[i]+".box").addClass('orange');
+      }
+      for(i=0;i<time.length;i++){
+        $("#"+data_name+"_bit2 ul li div."+data_name+"."+time[i]+".box").addClass('orange');
+      }
 
-	}
-	else {var bit1 = timing.substring(0,1);
-		var bit2 = timing.substring(1,2);
+    }
+    else {var bit1 = timing.substring(0,1);
+      var bit2 = timing.substring(1,2);
       // returns an array 
       var time1 = getMatrix(bit1);
       var time2 = getMatrix(bit2);
       $("#"+data_name+"_bit1 ul li div."+data_name).removeClass('orange');
       for(i=0;i<time1.length;i++){
-      	$("#"+data_name+"_bit1 ul li div."+data_name+"."+time1[i]+".box").addClass('orange');
+        $("#"+data_name+"_bit1 ul li div."+data_name+"."+time1[i]+".box").addClass('orange');
       }
+      
       $("#"+data_name+"_bit2 ul li div."+data_name).removeClass('orange');
-
-
       for(i=0;i<time2.length;i++){
-      	$("#"+data_name+"_bit2 ul li div."+data_name+"."+time2[i]+".box").addClass('orange');
+        $("#"+data_name+"_bit2 ul li div."+data_name+"."+time2[i]+".box").addClass('orange');
       }
-  }
+    }
 
 }
