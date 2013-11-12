@@ -16,13 +16,17 @@ $(document).ready(function() {
     var outHour = now.getHours();
     var outMin = now.getMinutes();
     var outSec = now.getSeconds();
-    outHour+='';
-    if(outSeconds.length<2){
-      time = getMatrix(outHour);
+    outSec+='';
+    if(outSec.length<2){
+      time = getMatrix(outSec);
       console.log(time);
     }
-    else {var bit1 = outSeconds.substring(0,1);
-          var bit2 = outSeconds.substring(1,2);
+    else {var bit1 = outSec.substring(0,1);
+      var bit2 = outSec.substring(1,2);
+      time1 = getMatrix(bit1);
+      time2 = getMatrix(bit2);
+      console.log(time1);
+      console.log(time2);
     }
 
     //$("#secs_bit1 ul li div.secs "+i+" box")
