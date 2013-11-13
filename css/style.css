@@ -18,8 +18,7 @@ div.box {
 width: 9px;
 height: 9px;
 background-color: rgba(20,20,20,0.76);
-margin-left: 1.5px;
-}
+margin:1px;}
 .clock-surrounding {
 margin-top: 50px;
 vertical-align: 43%;
@@ -32,3 +31,4 @@ ul{text-align: center;display:inline-block;}
 body,#digits{background-color: #000;}
 div{display:inline-block;}
 .orange{background-color:rgb(0, 255, 0) !important ;}
+#digits{border:2px solid black ;}
